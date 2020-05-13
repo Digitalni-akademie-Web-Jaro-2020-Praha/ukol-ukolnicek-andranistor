@@ -5,7 +5,6 @@ const todo__tasksElm = document.querySelector('.todo__tasks');
 const newTaskElm = document.querySelector('#new-task');
 const btnElm = document.querySelector('.btn-add');
 
-// Fce provede aktualizaci dle promenne task
 const updateTasks = () => {
   todo__tasksElm.innerHTML = '';
   for (let i = 0; i < tasks.length; i++) {
@@ -16,7 +15,6 @@ const updateTasks = () => {
   }
 };
 
-// Fce na update ukolu
 const newTask = () => {
   if (newTaskElm.value.trim() !== '') {
     tasks.push(newTaskElm.value);
