@@ -24,3 +24,10 @@ const newTask = () => {
 };
 
 btnElm.addEventListener('click', newTask);
+
+
+// const btnPointer = () => {
+//   const buttonElm = document.querySelector('button');
+//   buttonElm.style.cursor = "pointer";
+// }
+// btnPointer();
